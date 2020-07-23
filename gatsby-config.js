@@ -6,5 +6,5 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: ["gatsby-plugin-react-helmet", "gatsby-plugin-typescript"],
-}
+  plugins: ["gatsby-plugin-react-helmet", "gatsby-plugin-typescript", "gatsby-plugin-typescript-checker"],
+};
