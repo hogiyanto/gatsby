@@ -29,6 +29,13 @@
     "react-dom": "16.12.0",
     "react-helmet": "6.1.0"
   },
+  "dependenciesComments": {
+    "gatsby": "Static site generator that leverages React.",
+    "gatsby-plugin-react-helmet": "Gatsby plugin to integrate with react-helmet",
+    "react": "React library",
+    "react-dom": "Render React component into DOM",
+    "react-helmet": "Header meta handling library for manage all changes to document head"
+  },
   "devDependencies": {
     "@types/react": "16.9.43",
     "@types/react-dom": "16.9.8",
@@ -46,5 +53,23 @@
     "gatsby-plugin-typescript-checker": "1.1.1",
     "prettier": "2.0.5",
     "typescript": "3.9.7"
+  },
+  "devDependenciesComments": {
+    "@types/react": "TypeScript typings for react",
+    "@types/react-dom": "TypeScript typings for react-dom",
+    "@types/react-helmet": "TypeScript typings for react-helmet",
+    "@typescript-eslint/eslint-plugin": "ESlint for TS compatibility",
+    "@typescript-eslint/parser": "Custom parser so ESlint will work with TS",
+    "eslint": "Code linting",
+    "eslint-config-prettier": "ESLint config for prettier. Add exclusion so ESLint & Prettier won't clash",
+    "eslint-plugin-import": "ESLint config for import sorting",
+    "eslint-plugin-prettier": "Show prettier error as eslint error. Add plugin:prettier/recommended",
+    "eslint-plugin-react": "React ESlint rules",
+    "eslint-plugin-react-hooks": "React Hooks ESLint rules",
+    "gatsby-cli": "To run Gatsby command",
+    "gatsby-plugin-prettier-eslint": "Gatsby plugin to integrate with prettier and eslint. Enable auto fix on save",
+    "gatsby-plugin-typescript-checker": "Gatsby plugin to do type checking",
+    "prettier": "Opinionated code formatter",
+    "typescript": "The TypeScript compiler. Needed by @typescript-eslint"
   }
 }
