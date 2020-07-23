@@ -11,6 +11,7 @@ const Home = () => {
       <Link to="/contact">Contact</Link>
       <Header text="Home" />
       <p>This is the home page</p>
+      <p>HTTP server host: {process.env.HTTP_SERVER_HOST}</p>
     </>
   );
 };
