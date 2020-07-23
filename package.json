@@ -3,9 +3,15 @@
   "version": "0.0.1",
   "author": "hogiyanto",
   "description": "Learn gatsby",
-  "main": "index.tsx",
+  "main": "/src/pages/index.tsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -14,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/hogiyanto/gatsby/issues"
   },
-  "homepage": "https://github.com/hogiyanto/gatsby#readme"
+  "homepage": "https://github.com/hogiyanto/gatsby#readme",
+  "dependencies": {
+    "gatsby": "2.23.12",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  }
 }
