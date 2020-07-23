@@ -1,0 +1,18 @@
+{
+  "name": "gatsby",
+  "version": "0.0.1",
+  "author": "hogiyanto",
+  "description": "Learn gatsby",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hogiyanto/gatsby.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hogiyanto/gatsby/issues"
+  },
+  "homepage": "https://github.com/hogiyanto/gatsby#readme"
+}
