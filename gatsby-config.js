@@ -18,7 +18,6 @@ module.exports = {
   plugins: [
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-typescript",
-    "gatsby-plugin-typescript-checker",
     {
       resolve: "gatsby-plugin-prettier-eslint",
       options: {

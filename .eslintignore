@@ -1,2 +1,3 @@
 **/__generated__/*.ts
 gatsby-config.js
+gatsby-node.js

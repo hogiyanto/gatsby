@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/hogiyanto/gatsby#readme",
   "dependencies": {
+    "fork-ts-checker-webpack-plugin": "5.0.9",
     "gatsby": "2.23.12",
     "gatsby-plugin-react-helmet": "3.3.6",
     "react": "16.12.0",
@@ -36,6 +37,7 @@
     "react-helmet": "6.1.0"
   },
   "dependenciesComments": {
+    "fork-ts-checker-webpack-plugin": "Webpack plugin that runs TypeScript type checker and ESLint linting",
     "gatsby": "Static site generator that leverages React.",
     "gatsby-plugin-react-helmet": "Gatsby plugin to integrate with react-helmet",
     "react": "React library",
@@ -56,7 +58,6 @@
     "eslint-plugin-react-hooks": "4.0.8",
     "gatsby-cli": "2.12.63",
     "gatsby-plugin-prettier-eslint": "1.0.4",
-    "gatsby-plugin-typescript-checker": "1.1.1",
     "prettier": "2.0.5",
     "typescript": "3.9.7"
   },
@@ -74,7 +75,6 @@
     "eslint-plugin-react-hooks": "React Hooks ESLint rules",
     "gatsby-cli": "To run Gatsby command",
     "gatsby-plugin-prettier-eslint": "Gatsby plugin to integrate with prettier and eslint. Enable auto fix on save",
-    "gatsby-plugin-typescript-checker": "Gatsby plugin to do type checking",
     "prettier": "Opinionated code formatter",
     "typescript": "The TypeScript compiler. Needed by @typescript-eslint"
   }
