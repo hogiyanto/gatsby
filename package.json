@@ -57,7 +57,6 @@
     "eslint-plugin-react": "7.20.3",
     "eslint-plugin-react-hooks": "4.0.8",
     "gatsby-cli": "2.12.63",
-    "gatsby-plugin-prettier-eslint": "1.0.4",
     "prettier": "2.0.5",
     "typescript": "3.9.7"
   },
@@ -74,7 +73,6 @@
     "eslint-plugin-react": "React ESlint rules",
     "eslint-plugin-react-hooks": "React Hooks ESLint rules",
     "gatsby-cli": "To run Gatsby command",
-    "gatsby-plugin-prettier-eslint": "Gatsby plugin to integrate with prettier and eslint. Enable auto fix on save",
     "prettier": "Opinionated code formatter",
     "typescript": "The TypeScript compiler. Needed by @typescript-eslint"
   }
