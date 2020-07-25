@@ -24,5 +24,11 @@ module.exports = {
       // All components inside <Router /> will not have static assets
       options: { prefixes: [`/app/*`] },
     },
+    {
+      resolve: `gatsby-plugin-webpack-bundle-analyser-v2`,
+      options: {
+        disable: false, // Change to true to enable analyzer
+      },
+    },
   ],
 };
