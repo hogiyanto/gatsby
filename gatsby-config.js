@@ -15,5 +15,14 @@ require("dotenv").config({
 
 module.exports = {
   /* Your site config here */
-  plugins: ["gatsby-plugin-react-helmet", "gatsby-plugin-typescript"],
+  plugins: [
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-typescript",
+    {
+      resolve: `gatsby-plugin-create-client-paths`,
+      // All paths prefixed by /app/ will render the route described in src/pages/app.js
+      // All components inside <Router /> will not have static assets
+      options: { prefixes: [`/app/*`] },
+    },
+  ],
 };

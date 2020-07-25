@@ -31,6 +31,7 @@
   "dependencies": {
     "fork-ts-checker-webpack-plugin": "5.0.9",
     "gatsby": "2.23.12",
+    "gatsby-plugin-create-client-paths": "2.3.10",
     "gatsby-plugin-react-helmet": "3.3.6",
     "react": "16.12.0",
     "react-dom": "16.12.0",
@@ -39,6 +40,7 @@
   "dependenciesComments": {
     "fork-ts-checker-webpack-plugin": "Webpack plugin that runs TypeScript type checker and ESLint linting",
     "gatsby": "Static site generator that leverages React.",
+    "gatsby-plugin-create-client-paths": "Gatsby plugin to create client-only routes. Read more https://www.gatsbyjs.org/docs/client-only-routes-and-user-authentication/",
     "gatsby-plugin-react-helmet": "Gatsby plugin to integrate with react-helmet",
     "react": "React library",
     "react-dom": "Render React component into DOM",

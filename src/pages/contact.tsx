@@ -1,16 +1,17 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import Header from "../components/header";
 import PageMetadata from "../components/page-metadata";
+import Layout from "../components/layout";
 
 const Contact = () => {
   return (
     <>
       <PageMetadata title="Contact" />
-      <Link to="/">Home</Link>
-      <Header text="Contact" />
-      <p>This is the contact page</p>
+      <Layout>
+        <Header text="Contact" />
+        <p>This is the contact page</p>
+      </Layout>
     </>
   );
 };
